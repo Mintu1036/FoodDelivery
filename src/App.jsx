@@ -2,10 +2,10 @@ import React, { useState } from 'react'
 import Navabr from './components/Navbar/Navbar'
 import { Route, Routes } from 'react-router-dom'
 import Home from './pages/Home/Home'
-import Cart from './pages/Cart/Cart'
-import PlaceOrder from './pages/PlaceOrder/PlaceOrder' 
-import Footer from './components/Footer/Footer'
-import LoginPopup from './components/LoginPopUp/LoginPopUp'
+import Cart from './pages/Cart/Cart.jsx'
+import PlaceOrder from './pages/PlaceOrder/PlaceOrder.jsx' 
+import Footer from './components/Footer/Footer.jsx'
+import LoginPopup from './components/LoginPopup.jsx'
 
 const App = () => {
 
